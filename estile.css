@@ -1,6 +1,6 @@
 body{background-color: #f0ddaa;}
 
-img{border:8px #5ebdb2 groove}
+.m4sterimg{border:8px #5ebdb2 groove}
 
 table{
     text-align: center;
@@ -72,4 +72,10 @@ address {
     margin-top: 1em;
     padding-top: 1em;
     border-top: thin dotted;
+}
+
+hr {
+    color: #e42d40;
+    background-color: #e42d40;
+    border: 1px solid #e42d40;
 }

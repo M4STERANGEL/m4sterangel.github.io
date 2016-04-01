@@ -8,21 +8,23 @@
 
 <body>
     <ul class="navbar">
-        <li><a href="index.html">Página principal</a>
+        <li><a href="index.html">Página principal </a>
         <li><a href="socialnet.html">Redes Sociales</a>
         <li><a href="contact.html" class="active">Contacto</a>
-     </ul>
+        <hr />
+        <li><a href="login.html">Admin</a>
+    </ul>
     
     <h2> Escribe lo que quieras y me llegará por email: </h2>
     
     <form method="POST" action="mailer.php">
-       <input type="text" name="name" size="19"><br>
+       <input type="text" name="name" placeholder="Nombre" size="19"><br>
        <br>
-       <input type="text" name="email" size="19"><br>
+       <input type="text" name="email" placeholder="Email" size="19"><br>
        <br>
-       <textarea rows="9" name="message" cols="30"></textarea>
+       <textarea rows="9" name="message" placeholder="Mensaje" cols="30"></textarea>
        <br>
        <br>
-       <input type="submit" value="Submit" name="submit">
+       <input type="submit" value="Enviar" name="submit">
     </form>
 </body>
