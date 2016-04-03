@@ -74,8 +74,6 @@ address {
     border-top: thin dotted;
 }
 
-hr {
-    color: #e42d40;
-    background-color: #e42d40;
-    border: 1px solid #e42d40;
-}
+hr {border: 3px solid #e42d40;}
+
+.smallhr {border: 1px solid #e42d40;}
